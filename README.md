@@ -34,12 +34,14 @@ Compiled with gcc 12.1.0
 
 ### Run time
 
-bind.o: 23.8sec
-lambda.o: 21.81sec
+bind.o: 23.54sec
+
+lambda.o: 19.96sec
 
 ### Binary size
 
 bind.o: 24kB
+
 lambda.o: 19kB
 
 ## Evaluation

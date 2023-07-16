@@ -54,9 +54,9 @@ int main(int argc, char** argv) {
         B* b = new B(a);
 
         b->run();
+        std::cout << b->getResult() << std::endl;
         delete b;
         delete a;
-        std::cout << b->getResult() << std::endl;
     }
     return 0;
 }
